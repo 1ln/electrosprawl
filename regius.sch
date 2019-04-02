@@ -397,17 +397,6 @@ Wire Wire Line
 	16450 10550 17100 10550
 Wire Wire Line
 	16450 10650 17100 10650
-$Comp
-L Device:Ferrite_Bead_Small FB1
-U 1 1 5CCF8350
-P 15200 10050
-F 0 "FB1" H 15300 10096 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 15300 10005 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" V 15130 10050 50  0001 C CNN
-F 3 "~" H 15200 10050 50  0001 C CNN
-	1    15200 10050
-	0    1    1    0   
-$EndComp
 Connection ~ 16200 10050
 $Comp
 L power:+3.3V #PWR0112
@@ -902,10 +891,6 @@ F 3 "" H 17900 4850 50  0001 C CNN
 	1    17900 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15300 10050 15800 10050
-Wire Wire Line
-	15100 10050 14700 10050
 $Comp
 L Device:Crystal Y1
 U 1 1 5CB56B03
@@ -1215,8 +1200,6 @@ F 3 "~" H 18000 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	18000 4300 18000 3800
-Text Label 16500 9650 0    50   ~ 0
-A1
 Wire Wire Line
 	17800 7050 17800 6850
 Text Label 17800 6850 3    50   ~ 0
@@ -1305,7 +1288,7 @@ U 1 1 5CDBE866
 P 20600 6000
 F 0 "J70" V 20566 5812 50  0000 R CNN
 F 1 "TXRX" V 20475 5812 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 20600 6000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 20600 6000 50  0001 C CNN
 F 3 "~" H 20600 6000 50  0001 C CNN
 	1    20600 6000
 	0    -1   -1   0   
@@ -1329,7 +1312,7 @@ U 1 1 5CEDF7BA
 P 18600 12550
 F 0 "J68" V 18473 12730 50  0000 L CNN
 F 1 "TXRX1CAN" V 18564 12730 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 18600 12550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 18600 12550 50  0001 C CNN
 F 3 "~" H 18600 12550 50  0001 C CNN
 	1    18600 12550
 	0    1    1    0   
@@ -1699,108 +1682,6 @@ D49
 Wire Wire Line
 	19200 11150 19200 12100
 $Comp
-L Connector_Generic:Conn_01x02 J51
-U 1 1 5D2267A3
-P 11350 5700
-F 0 "J51" H 11430 5692 50  0000 L CNN
-F 1 "D19" V 11650 5450 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11350 5700 50  0001 C CNN
-F 3 "~" H 11350 5700 50  0001 C CNN
-	1    11350 5700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11550 5600 11750 5600
-Wire Wire Line
-	11550 5700 12100 5700
-Text Label 12100 5700 0    50   ~ 0
-D19
-$Comp
-L Connector_Generic:Conn_01x02 J52
-U 1 1 5D2B4025
-P 11350 6050
-F 0 "J52" H 11430 6042 50  0000 L CNN
-F 1 "D18" V 11650 5800 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11350 6050 50  0001 C CNN
-F 3 "~" H 11350 6050 50  0001 C CNN
-	1    11350 6050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11550 5950 11750 5950
-Wire Wire Line
-	11550 6050 12100 6050
-Text Label 12100 6050 0    50   ~ 0
-D18
-$Comp
-L Connector_Generic:Conn_01x02 J53
-U 1 1 5D2B402E
-P 11350 6400
-F 0 "J53" H 11430 6392 50  0000 L CNN
-F 1 "D17" V 11650 6150 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11350 6400 50  0001 C CNN
-F 3 "~" H 11350 6400 50  0001 C CNN
-	1    11350 6400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11550 6300 11750 6300
-Wire Wire Line
-	11550 6400 12100 6400
-Text Label 12100 6400 0    50   ~ 0
-D17
-$Comp
-L Connector_Generic:Conn_01x02 J54
-U 1 1 5D2B4037
-P 11350 6750
-F 0 "J54" H 11430 6742 50  0000 L CNN
-F 1 "D16" V 11650 6500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11350 6750 50  0001 C CNN
-F 3 "~" H 11350 6750 50  0001 C CNN
-	1    11350 6750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11550 6650 11750 6650
-Wire Wire Line
-	11550 6750 12100 6750
-Text Label 12100 6750 0    50   ~ 0
-D16
-$Comp
-L Connector_Generic:Conn_01x02 J55
-U 1 1 5D2B4040
-P 11350 7100
-F 0 "J55" H 11430 7092 50  0000 L CNN
-F 1 "D15" V 11650 6850 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11350 7100 50  0001 C CNN
-F 3 "~" H 11350 7100 50  0001 C CNN
-	1    11350 7100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11550 7000 11750 7000
-Wire Wire Line
-	11550 7100 12100 7100
-Text Label 12100 7100 0    50   ~ 0
-D15
-$Comp
-L Connector_Generic:Conn_01x02 J56
-U 1 1 5D383940
-P 11350 7450
-F 0 "J56" H 11430 7442 50  0000 L CNN
-F 1 "D14" V 11650 7200 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11350 7450 50  0001 C CNN
-F 3 "~" H 11350 7450 50  0001 C CNN
-	1    11350 7450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11550 7350 11750 7350
-Wire Wire Line
-	11550 7450 12100 7450
-Text Label 12100 7450 0    50   ~ 0
-D14
-$Comp
 L Connector_Generic:Conn_01x02 J57
 U 1 1 5D383949
 P 11350 7800
@@ -2158,23 +2039,6 @@ Wire Wire Line
 Text Label 10400 9900 0    50   ~ 0
 D29
 $Comp
-L Connector_Generic:Conn_01x02 J19
-U 1 1 5DF95EBD
-P 7800 4650
-F 0 "J19" H 7880 4642 50  0000 L CNN
-F 1 "D28" V 8100 4400 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 4650 50  0001 C CNN
-F 3 "~" H 7800 4650 50  0001 C CNN
-	1    7800 4650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8000 4550 8200 4550
-Wire Wire Line
-	8000 4650 8550 4650
-Text Label 8550 4650 0    50   ~ 0
-D28
-$Comp
 L Connector_Generic:Conn_01x02 J20
 U 1 1 5DF95EC6
 P 7800 5000
@@ -2209,40 +2073,6 @@ Wire Wire Line
 Text Label 8550 5350 0    50   ~ 0
 D26
 $Comp
-L Connector_Generic:Conn_01x02 J22
-U 1 1 5DF95ED8
-P 7800 5700
-F 0 "J22" H 7880 5692 50  0000 L CNN
-F 1 "D25" V 8100 5450 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 5700 50  0001 C CNN
-F 3 "~" H 7800 5700 50  0001 C CNN
-	1    7800 5700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8000 5600 8200 5600
-Wire Wire Line
-	8000 5700 8550 5700
-Text Label 8550 5700 0    50   ~ 0
-D25
-$Comp
-L Connector_Generic:Conn_01x02 J23
-U 1 1 5DF95EE1
-P 7800 6050
-F 0 "J23" H 7880 6042 50  0000 L CNN
-F 1 "D24" V 8100 5800 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 6050 50  0001 C CNN
-F 3 "~" H 7800 6050 50  0001 C CNN
-	1    7800 6050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8000 5950 8200 5950
-Wire Wire Line
-	8000 6050 8550 6050
-Text Label 8550 6050 0    50   ~ 0
-D24
-$Comp
 L Connector_Generic:Conn_01x02 J24
 U 1 1 5DF95EEA
 P 7800 6400
@@ -2257,8 +2087,6 @@ Wire Wire Line
 	8000 6300 8200 6300
 Wire Wire Line
 	8000 6400 8550 6400
-Text Label 8550 6400 0    50   ~ 0
-D23
 $Comp
 L Connector_Generic:Conn_01x02 J25
 U 1 1 5DF95EF3
@@ -2716,25 +2544,7 @@ F 3 "~" H 19300 12300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11750 9800 11750 9450
-Connection ~ 11750 5600
-Connection ~ 11750 5950
-Wire Wire Line
-	11750 5950 11750 5600
-Connection ~ 11750 6300
-Wire Wire Line
-	11750 6300 11750 5950
-Connection ~ 11750 6650
-Wire Wire Line
-	11750 6650 11750 6300
-Connection ~ 11750 7000
-Wire Wire Line
-	11750 7000 11750 6650
-Connection ~ 11750 7350
-Wire Wire Line
-	11750 7350 11750 7000
 Connection ~ 11750 7700
-Wire Wire Line
-	11750 7700 11750 7350
 Connection ~ 11750 8050
 Wire Wire Line
 	11750 8050 11750 7700
@@ -2831,24 +2641,11 @@ Wire Wire Line
 Connection ~ 8200 3950
 Wire Wire Line
 	8200 3950 6500 3950
-Connection ~ 8200 4550
-Wire Wire Line
-	8200 4550 8200 3950
 Connection ~ 8200 4900
-Wire Wire Line
-	8200 4900 8200 4550
 Connection ~ 8200 5250
 Wire Wire Line
 	8200 5250 8200 4900
-Connection ~ 8200 5600
-Wire Wire Line
-	8200 5600 8200 5250
-Connection ~ 8200 5950
-Wire Wire Line
-	8200 5950 8200 5600
 Connection ~ 8200 6300
-Wire Wire Line
-	8200 6300 8200 5950
 Connection ~ 8200 6650
 Wire Wire Line
 	8200 6650 8200 6300
@@ -2877,8 +2674,6 @@ Connection ~ 8200 9450
 Wire Wire Line
 	8200 9450 8200 9100
 Wire Wire Line
-	11750 3950 11750 5600
-Wire Wire Line
 	11750 10550 11750 9800
 Wire Wire Line
 	11750 10550 14550 10550
@@ -2894,7 +2689,7 @@ U 1 1 5CAD745C
 P 18800 13150
 F 0 "J40" V 18673 13330 50  0000 L CNN
 F 1 "CAN" V 18764 13330 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 18800 13150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 18800 13150 50  0001 C CNN
 F 3 "~" H 18800 13150 50  0001 C CNN
 	1    18800 13150
 	0    1    1    0   
@@ -3352,4 +3147,14 @@ Wire Wire Line
 Connection ~ 25650 12150
 Wire Wire Line
 	25650 12150 26050 12150
+Text Label 8550 6400 0    50   ~ 0
+D23
+Wire Wire Line
+	8200 5250 8200 6300
+Wire Wire Line
+	11750 3950 11750 7700
+Wire Wire Line
+	8200 3950 8200 4900
+Wire Wire Line
+	14700 10050 15800 10050
 $EndSCHEMATC
