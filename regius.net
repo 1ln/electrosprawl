@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dan/pcb_designs/regius/regius.sch)
-    (date "Tue 02 Apr 2019 17:19:24 EDT")
+    (date "Wed 03 Apr 2019 00:43:59 EDT")
     (tool "Eeschema 5.0.1-33cea8e~68~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1744,10 +1744,10 @@
       (node (ref U2) (pin 9)))
     (net (code 91) (name "Net-(J74-Pad4)")
       (node (ref J74) (pin 4)))
-    (net (code 92) (name /usb_rx_+)
+    (net (code 92) (name /+)
       (node (ref U2) (pin 95))
       (node (ref J74) (pin 3)))
-    (net (code 93) (name /usb_tx_-)
+    (net (code 93) (name /-)
       (node (ref U2) (pin 94))
       (node (ref J74) (pin 2)))
     (net (code 94) (name "Net-(J71-Pad3)")

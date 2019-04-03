@@ -240,9 +240,9 @@ F 3 "" H 22050 7550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 23000 7650 0    50   ~ 0
-usb_rx_+
++
 Text Label 23000 7750 0    50   ~ 0
-usb_tx_-
+-
 $Comp
 L Connector:USB_B_Micro J74
 U 1 1 5C6C2176
@@ -255,9 +255,9 @@ F 3 "~" H 25350 6700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 23850 6650 2    50   ~ 0
-usb_tx_-
+-
 Text Label 23850 6750 2    50   ~ 0
-usb_rx_+
++
 Wire Wire Line
 	25200 6350 25200 6150
 $Comp
