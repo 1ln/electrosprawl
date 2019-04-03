@@ -2919,8 +2919,6 @@ Wire Wire Line
 Connection ~ 19200 6450
 Text Label 19200 6250 1    50   ~ 0
 RESET
-Text Label 22700 10550 2    50   ~ 0
-RESET
 Wire Wire Line
 	22700 10550 23250 10550
 Connection ~ 23250 10550
@@ -3047,7 +3045,7 @@ Wire Wire Line
 	23350 11750 23350 12150
 Connection ~ 23350 12150
 Wire Wire Line
-	23350 12150 20900 12150
+	23350 12150 22800 12150
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 5C5E2FEB
@@ -3150,11 +3148,49 @@ Wire Wire Line
 Text Label 8550 6400 0    50   ~ 0
 D23
 Wire Wire Line
-	8200 5250 8200 6300
+	8200 5250 8200 5550
 Wire Wire Line
 	11750 3950 11750 7700
 Wire Wire Line
 	8200 3950 8200 4900
 Wire Wire Line
 	14700 10050 15800 10050
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 5CCCBBE8
+P 22500 10550
+F 0 "J19" V 22580 10542 50  0000 L CNN
+F 1 "reset" H 22580 10451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 22500 10550 50  0001 C CNN
+F 3 "~" H 22500 10550 50  0001 C CNN
+	1    22500 10550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	22800 12150 22800 10450
+Wire Wire Line
+	22800 10450 22700 10450
+Connection ~ 22800 12150
+Wire Wire Line
+	22800 12150 20900 12150
+$Comp
+L Connector_Generic:Conn_01x02 J22
+U 1 1 5D4A2E47
+P 7800 5650
+F 0 "J22" H 7880 5642 50  0000 L CNN
+F 1 "D28" V 8100 5400 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 5650 50  0001 C CNN
+F 3 "~" H 7800 5650 50  0001 C CNN
+	1    7800 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 5550 8200 5550
+Connection ~ 8200 5550
+Wire Wire Line
+	8200 5550 8200 6300
+Wire Wire Line
+	8000 5650 8550 5650
+Text Label 8550 5650 0    50   ~ 0
+D28
 $EndSCHEMATC
