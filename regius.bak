@@ -1364,21 +1364,6 @@ Wire Wire Line
 Connection ~ 15450 9550
 Wire Wire Line
 	15450 9550 15450 10550
-Wire Wire Line
-	21600 8550 22700 8550
-Wire Wire Line
-	21600 8450 22700 8450
-$Comp
-L Connector_Generic:Conn_01x02 J72
-U 1 1 5D067002
-P 22900 8450
-F 0 "J72" H 22980 8442 50  0000 L CNN
-F 1 "I2C" H 22980 8351 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 22900 8450 50  0001 C CNN
-F 3 "~" H 22900 8450 50  0001 C CNN
-	1    22900 8450
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J73
 U 1 1 5D0D39C8
@@ -1679,42 +1664,6 @@ Wire Wire Line
 	16950 10250 16950 11500
 Text Label 16950 11500 1    50   ~ 0
 D49
-Wire Wire Line
-	19200 11150 19200 12100
-$Comp
-L Connector_Generic:Conn_01x02 J57
-U 1 1 5D383949
-P 11350 7800
-F 0 "J57" H 11430 7792 50  0000 L CNN
-F 1 "D52" V 11650 7550 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11350 7800 50  0001 C CNN
-F 3 "~" H 11350 7800 50  0001 C CNN
-	1    11350 7800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11550 7700 11750 7700
-Wire Wire Line
-	11550 7800 12100 7800
-Text Label 12100 7800 0    50   ~ 0
-D52
-$Comp
-L Connector_Generic:Conn_01x02 J58
-U 1 1 5D383952
-P 11350 8150
-F 0 "J58" H 11430 8142 50  0000 L CNN
-F 1 "D50" V 11650 7900 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11350 8150 50  0001 C CNN
-F 3 "~" H 11350 8150 50  0001 C CNN
-	1    11350 8150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11550 8050 11750 8050
-Wire Wire Line
-	11550 8150 12100 8150
-Text Label 12100 8150 0    50   ~ 0
-D50
 $Comp
 L Connector_Generic:Conn_01x02 J59
 U 1 1 5D38395B
@@ -2530,27 +2479,8 @@ Wire Wire Line
 Text Label 6850 9900 0    50   ~ 0
 A2
 Wire Wire Line
-	19300 11150 19300 12100
-$Comp
-L Connector_Generic:Conn_01x02 J69
-U 1 1 5E9CBC2B
-P 19300 12300
-F 0 "J69" H 19380 12292 50  0000 L CNN
-F 1 "4WIRELED" H 19380 12201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 19300 12300 50  0001 C CNN
-F 3 "~" H 19300 12300 50  0001 C CNN
-	1    19300 12300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	11750 9800 11750 9450
-Connection ~ 11750 7700
-Connection ~ 11750 8050
-Wire Wire Line
-	11750 8050 11750 7700
 Connection ~ 11750 8400
-Wire Wire Line
-	11750 8400 11750 8050
 Connection ~ 11750 8750
 Wire Wire Line
 	11750 8750 11750 8400
@@ -3150,8 +3080,6 @@ D23
 Wire Wire Line
 	8200 5250 8200 5550
 Wire Wire Line
-	11750 3950 11750 7700
-Wire Wire Line
 	8200 3950 8200 4900
 Wire Wire Line
 	14700 10050 15800 10050
@@ -3193,4 +3121,36 @@ Wire Wire Line
 	8000 5650 8550 5650
 Text Label 8550 5650 0    50   ~ 0
 D28
+Wire Wire Line
+	19500 11150 19500 12800
+Wire Wire Line
+	19400 11150 19400 12800
+Wire Wire Line
+	19300 11150 19300 12800
+Wire Wire Line
+	19200 11150 19200 12800
+$Comp
+L Connector_Generic:Conn_01x04 J23
+U 1 1 5DA67D42
+P 19400 13000
+F 0 "J23" V 19273 13180 50  0000 L CNN
+F 1 "Conn_01x04" V 19364 13180 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19400 13000 50  0001 C CNN
+F 3 "~" H 19400 13000 50  0001 C CNN
+	1    19400 13000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11750 3950 11750 8400
+$Comp
+L Connector_Generic:Conn_01x02 J72
+U 1 1 5D067002
+P 22900 8450
+F 0 "J72" H 22980 8442 50  0000 L CNN
+F 1 "I2C" H 22980 8351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 22900 8450 50  0001 C CNN
+F 3 "~" H 22900 8450 50  0001 C CNN
+	1    22900 8450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
