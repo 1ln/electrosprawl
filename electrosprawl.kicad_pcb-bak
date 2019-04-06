@@ -5568,7 +5568,7 @@
   (gr_arc (start 106.979434 26.519778) (end 106.979434 22.769778) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 170.229434 22.769778) (end 106.979434 22.769778) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 170.229434 26.769778) (end 174.229434 26.769778) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 174.229434 26.769778) (end 174.229434 101.019778) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 174.229434 26.769778) (end 174.229434 103.019778) (layer Edge.Cuts) (width 0.15))
   (gr_circle (center 169.207968 39.928778) (end 169.461968 39.928778) (layer F.SilkS) (width 0.2) (tstamp 5C3A4EB8))
   (gr_circle (center 169.207968 35.864778) (end 169.461968 35.864778) (layer F.SilkS) (width 0.2))
   (gr_circle (center 169.267929 37.134778) (end 169.521929 36.626778) (layer F.SilkS) (width 0.2) (tstamp 5C3A4E82))
