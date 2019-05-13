@@ -1,6 +1,2 @@
 (sym_lib_table
-  (lib (name esp32_io_board-rescue)(type Legacy)(uri ${KIPRJMOD}/esp32_io_board-rescue.lib)(options "")(descr ""))
-  (lib (name portia-rescue)(type Legacy)(uri ${KIPRJMOD}/portia-rescue.lib)(options "")(descr ""))
-  (lib (name regius-rescue)(type Legacy)(uri ${KIPRJMOD}/regius-rescue.lib)(options "")(descr ""))
-  (lib (name electrosprawl-rescue)(type Legacy)(uri ${KIPRJMOD}/electrosprawl-rescue.lib)(options "")(descr ""))
 )
